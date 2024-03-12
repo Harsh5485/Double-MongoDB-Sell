@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/cinemaduniyasupport/31'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', ''))
-STREAM_API = (environ.get('STREAM_API', ''))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/cinemaduniyasupport/24'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'paisakamalo.in'))
+STREAM_API = (environ.get('STREAM_API', '8b4c958cf0ca553757b67cf26a37a7c2832a82d8'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/cinemaduniyasupport/27'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5112939426').split()]
@@ -50,9 +50,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Harsh54:Nokia@21@cluster0.gcqbyzm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://Harsh54:Nokia@213@cluster0.3giqbt5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Harsh54")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://harsha:harsha@cluster0.a9qneiw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://harsha:harsha@cluster0.sognumw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "harsha")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
@@ -64,9 +64,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/rockersallmoviesearch')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cinemaduniyachannel')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/cinemaduniyasupport/24')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+MptPuoRChL8xNmZl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+KYScoHR_D9g1MmY1')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/cinemaduniyasupport/27')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ComfyTraderz')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002010967436'))
